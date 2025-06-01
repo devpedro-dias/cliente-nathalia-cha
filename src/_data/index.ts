@@ -42,3 +42,30 @@ export const CARDS_CONTENTS = [
             'Não é só emagrecimento, é um novo jeito de cuidar de si mesmo com prazer e sem sofrimento.',
     },
 ]
+
+export const TESTIMONIALS_CARDS = [
+    {
+        id: 1,
+        content:
+            'Em poucas semanas, vi meu corpo começar a mudar! O chá é simples de preparar e sem dietas radicais. Recomendo para quem quer emagrecer de forma natural e sustentável.',
+        name: 'Juliana S.',
+    },
+    {
+        id: 2,
+        content:
+            'O chá mudou minha rotina! Perdi peso de forma saudável e sem precisar de dietas restritivas.',
+        name: 'Fernanda M.',
+    },
+    {
+        id: 3,
+        content:
+            'Nunca pensei que um chá pudesse ajudar tanto. Emagreci sem sofrimento e me sinto muito melhor!',
+        name: 'Ricardo L.',
+    },
+    {
+        id: 4,
+        content:
+            'Sempre tentei emagrecer com dietas, mas nada funcionava. Com o chá secreto, perdi peso de forma natural e sem sacrifícios. Super recomendo!',
+        name: 'Tatiane M.',
+    },
+]

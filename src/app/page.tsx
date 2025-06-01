@@ -1,7 +1,9 @@
 import CardsSection from '@/_components/cards-section'
+import { CardBody, CardContainer, CardItem } from '@/_components/ui/3d-card'
 import { Button } from '@/_components/ui/button'
 import { DotBackground } from '@/_components/ui/dot-background'
 import { Highlight } from '@/_components/ui/hero-highlight'
+import { TESTIMONIALS_CARDS } from '@/_data'
 import { CoffeeIcon, CornerRightDown } from 'lucide-react'
 
 import Link from 'next/link'
@@ -53,6 +55,37 @@ const HomePage = () => {
                             Clique aqui para conhecer
                         </Link>
                     </Button>
+                </div>
+            </section>
+
+            <section className="flex flex-col gap-6 items-center justify-center text-center">
+                <h2 className="font-semibold text-2xl sm:text-3xl md:text-4xl text-center">
+                    Depoimentos
+                </h2>
+
+                <p className="text-md text-zinc-600">
+                    Alguns dos depoimentos dos nossos alunos que se juntaram a
+                    nossa comunidade
+                </p>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center px-4">
+                    {TESTIMONIALS_CARDS.map(({ id, content, name }) => (
+                        <CardContainer key={id}>
+                            <CardBody className="w-[300px] h-[260px] bg-white/90 dark:bg-zinc-900 rounded-xl shadow-xl p-6 border border-zinc-200 dark:border-zinc-800">
+                                <CardItem
+                                    translateZ={20}
+                                    className="flex flex-col justify-between h-full text-left"
+                                >
+                                    <p className="text-zinc-700 dark:text-zinc-300 text-sm leading-relaxed">
+                                        “{content}”
+                                    </p>
+                                    <span className="mt-4 text-right font-semibold text-blue-600 dark:text-blue-400">
+                                        - {name}
+                                    </span>
+                                </CardItem>
+                            </CardBody>
+                        </CardContainer>
+                    ))}
                 </div>
             </section>
         </main>
