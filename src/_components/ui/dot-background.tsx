@@ -18,7 +18,7 @@ export const DotBackground = () => {
 
             <div className="max-w-[80vw] lg:max-w-[60vw] z-20 text-center">
                 <h1
-                    className="font-semibold text-2xl sm:text-3xl md:text-4xl leading-snug fade-in-up"
+                    className="font-semibold text-2xl sm:text-3xl md:text-4xl leading-relaxed fade-in-up"
                     style={{ '--delay': '.5s' } as CSSProperties}
                 >
                     Descubra o{' '}

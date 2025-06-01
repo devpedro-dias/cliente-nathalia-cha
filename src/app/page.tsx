@@ -58,7 +58,10 @@ const HomePage = () => {
                         Para quem serve?
                     </h2>
                 </div>
-                <CardsSection />
+
+                <div className="max-w-[80vw] lg:max-w-[60vw] mx-auto">
+                    <CardsSection />
+                </div>
 
                 <div className="flex items-center justify-center">
                     <Button size="lg" asChild variant="secondary">
