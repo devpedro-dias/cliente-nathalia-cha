@@ -27,7 +27,7 @@ const CardsSection = () => {
 
                 return (
                     <CardContainer key={id}>
-                        <CardBody className="w-[300px] h-[340px] bg-transparent rounded-xl shadow-xl p-6 border border-zinc-200 ">
+                        <CardBody className="w-[300px] h-[300px] bg-transparent rounded-xl shadow-xl p-6 border border-zinc-200 ">
                             <CardItem
                                 translateZ={30}
                                 className="flex flex-col items-start gap-4 h-full"
