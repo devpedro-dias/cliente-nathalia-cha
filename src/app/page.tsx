@@ -4,7 +4,7 @@ import { Button } from '@/_components/ui/button'
 import { DotBackground } from '@/_components/ui/dot-background'
 import { Highlight } from '@/_components/ui/hero-highlight'
 import { TESTIMONIALS_CARDS } from '@/_data'
-import { CoffeeIcon, CornerRightDown } from 'lucide-react'
+import { CoffeeIcon, CornerRightDown, MessageCircle } from 'lucide-react'
 
 import Link from 'next/link'
 
@@ -87,6 +87,24 @@ const HomePage = () => {
                         </CardContainer>
                     ))}
                 </div>
+            </section>
+
+            <section className="flex flex-col gap-6 items-center justify-center text-center py-10">
+                <h2 className="font-semibold text-2xl sm:text-3xl md:text-4xl text-center">
+                    Alguma dúvida?
+                </h2>
+
+                <p className="text-base text-zinc-600">
+                    Entre em contato conosco por nosso canal de suporte,
+                    responderemos em até 48 horas.
+                </p>
+
+                <Button size="lg" asChild>
+                    <Link href="#">
+                        <MessageCircle />
+                        Fale conosco
+                    </Link>
+                </Button>
             </section>
         </main>
     )
