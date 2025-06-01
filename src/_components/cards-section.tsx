@@ -21,7 +21,7 @@ const ICONS = {
 
 const CardsSection = () => {
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-y-4">
             {CARDS_CONTENTS.map(({ id, icon, title, description }) => {
                 const LucideIcon = ICONS[icon as keyof typeof ICONS]
 

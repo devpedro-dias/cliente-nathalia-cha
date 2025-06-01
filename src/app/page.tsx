@@ -40,8 +40,8 @@ const HomePage = () => {
                 </Button>
             </section>
 
-            <section className="flex flex-col gap-6 bg-gradient-to-r from-blue-400 to-indigo-600 py-10">
-                <div className=" text-white">
+            <section className="flex flex-col gap-10 bg-gradient-to-r from-blue-400 to-indigo-600 py-10">
+                <div className=" text-white ">
                     <h2 className="font-semibold text-2xl sm:text-3xl md:text-4xl text-center">
                         Para quem serve?
                     </h2>
