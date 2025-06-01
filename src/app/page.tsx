@@ -1,9 +1,11 @@
-import Hero from '@/_components/hero'
+import { DotBackground } from '@/_components/ui/dot-background'
 
 const HomePage = () => {
     return (
         <main>
-            <Hero />
+            <section>
+                <DotBackground />
+            </section>
         </main>
     )
 }

@@ -10,7 +10,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
     title: 'Chá Secreto',
-    description: 'Chá Secreto para emagrecimento e melhoria de qualidade de vida',
+    description:
+        'Chá Secreto para emagrecimento e melhoria de qualidade de vida',
 }
 
 export default function RootLayout({
