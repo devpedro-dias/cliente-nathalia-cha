@@ -73,7 +73,7 @@ const HomePage = () => {
                 </div>
             </section>
 
-            <section className="flex flex-col gap-6 items-center justify-center text-center">
+            <section className="flex flex-col gap-6 items-center justify-center text-center max-w-[80vw] lg:max-w-[60vw] mx-auto">
                 <h2
                     className="font-semibold text-2xl sm:text-3xl md:text-4xl text-center fade-in-up"
                     style={{ '--delay': '.8s' } as CSSProperties}
@@ -92,7 +92,7 @@ const HomePage = () => {
                 <TestimonialsCards />
             </section>
 
-            <section className="flex flex-col gap-6 items-center justify-center text-center py-10">
+            <section className="flex flex-col gap-6 items-center justify-center text-center py-10 max-w-[80vw] lg:max-w-[60vw] mx-auto">
                 <h2
                     className="font-semibold text-2xl sm:text-3xl md:text-4xl text-center fade-in-up"
                     style={{ '--delay': '.8s' } as CSSProperties}
