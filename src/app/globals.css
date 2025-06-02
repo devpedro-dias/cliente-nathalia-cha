@@ -1,6 +1,8 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 
+@tailwind utilities;
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -133,6 +135,14 @@
         to {
             opacity: 1;
             transform: translateY(0);
+        }
+    }
+}
+
+@layer utilities {
+    @media (min-width: 1440px) {
+        .xxl\:grid-cols-3 {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
         }
     }
 }
