@@ -9,7 +9,6 @@ import {
     RefreshCw,
     TrendingUp,
 } from 'lucide-react'
-import '@/styles/breakpoints.css'
 
 const ICONS = {
     CalendarHeart: CalendarHeart,
