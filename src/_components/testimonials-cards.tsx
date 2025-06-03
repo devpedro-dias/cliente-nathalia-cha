@@ -14,7 +14,7 @@ const TestimonialsCards = () => {
                             <p className="text-zinc-700 dark:text-zinc-300 text-sm leading-relaxed">
                                 “{content}”
                             </p>
-                            <span className="mt-4 text-right font-semibold text-blue-600 dark:text-blue-400">
+                            <span className="mt-4 text-right font-semibold text-green-700 dark:text-blue-400">
                                 - {name}
                             </span>
                         </CardItem>

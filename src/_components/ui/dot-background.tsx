@@ -9,7 +9,7 @@ export const DotBackground = () => {
                 className={cn(
                     'absolute inset-0 z-0',
                     '[background-size:20px_20px]',
-                    '[background-image:radial-gradient(#66ccff_1px,transparent_2px)]',
+                    '[background-image:radial-gradient(#66BD18_1px,transparent_2px)]',
                     'dark:[background-image:radial-gradient(#0066FF_1px,transparent_2px)] opacity-50'
                 )}
             />

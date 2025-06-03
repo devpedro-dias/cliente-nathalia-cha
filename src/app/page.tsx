@@ -6,6 +6,7 @@ import { DotBackground } from '@/_components/ui/dot-background'
 import { Highlight } from '@/_components/ui/hero-highlight'
 
 import { CoffeeIcon, CornerRightDown, MessageCircle } from 'lucide-react'
+import Image from 'next/image'
 
 import Link from 'next/link'
 import { CSSProperties } from 'react'
@@ -13,7 +14,18 @@ import { CSSProperties } from 'react'
 const HomePage = () => {
     return (
         <main className="flex flex-col gap-10">
-            <section>
+            <section className="space-y-0">
+                <div className="relative h-20">
+                    <header className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                        <Image
+                            src="/logo.svg"
+                            alt="logo"
+                            className="mx-auto"
+                            width={100}
+                            height={120}
+                        />
+                    </header>
+                </div>
                 <DotBackground />
             </section>
 
@@ -49,7 +61,7 @@ const HomePage = () => {
                 </Button>
             </section>
 
-            <section className="flex flex-col gap-10 bg-gradient-to-r from-blue-400 to-indigo-600 py-10">
+            <section className="flex flex-col gap-10 bg-gradient-to-r from-green-400 to-green-800 py-10">
                 <div className="text-white">
                     <h2
                         className="font-semibold text-2xl sm:text-3xl md:text-4xl text-center fade-in-up"

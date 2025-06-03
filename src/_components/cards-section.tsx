@@ -38,7 +38,7 @@ const CardsSection = () => {
                                 <h3 className="text-lg sm:text-xl font-semibold text-white">
                                     {title}
                                 </h3>
-                                <p className="text-xs sm:text-sm text-zinc-200">
+                                <p className="text-xs sm:text-sm text-white">
                                     {description}
                                 </p>
                             </CardItem>
